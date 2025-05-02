@@ -1,6 +1,22 @@
 // null mane kissu nai
 // undefined mane kono kisu defined kora hoyni
+// ================-->     VVI     <--======================
 
+// let variable_name = "something";
+// now we can repeat variable_name like this>>
+// variable_name = "other" but jodi amra const variable name declare kori tahole evabe korle error dekhabe
+
+let repeatVal = 2;
+repeatVal = 33;
+// console.log(repeatVal);
+// but const variable a amra evabe kortha parbo  na
+
+const repeatVal1 = 12;
+repeatVal1 = 101;
+
+// console.log(repeatVal1); // it show an erorr
+
+// break
 const accountId = 123456;
 let accountEmail = "ruhan@google.com";
 var accountPassword = "3323rree";

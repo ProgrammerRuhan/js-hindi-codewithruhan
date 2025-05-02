@@ -2,7 +2,7 @@
 
 let val;
 // val = 3 ?? 10;
-// val = null ?? 22
+// val = null ?? 22 
 // val = undefined ?? 12;
 // val = undefined ?? null;
 // val = null ?? undefined;

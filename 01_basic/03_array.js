@@ -1,5 +1,12 @@
 const Arr1 = ["Fish", "Cat", "bulf", "Bird"];
 const Arr2 = ["Orang", "Banana", "Mango"];
+// kono kisu k array te rupantor korar jonno Array.from("class_name")
+let str = "this is string";
+let arrStr = Array.from(str);
+console.log(str);
+console.log(typeof str);
+console.log(arrStr);
+// arrStr.map() array sokol subidha paoya jabe
 
 // const allArr = Arr1.push(Arr2); // array vitore array toiri kore
 const allArr = Arr1.concat(Arr2);
