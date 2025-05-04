@@ -1,0 +1,39 @@
+*** press up arrow or down arrow to show previues command ***
+*** create database dekthe hole sei database a age collections create kora lage then you can see the collection => show dbs***
+*** mongosh a kono kisu paste korthe chile mouse er right click korle paste hoye jay***
+
+show dbs => to show all database which is created.
+use data_baseName => to create a database or go to a database
+db => show running database
+db.createCollection("collection name") => to create new collection
+show collections => to show how many collections you have 
+
+db.collecion_name.insertOne({name: "Ruhan", age: 23}) => to insert single data in a collection
+db.collection_name.insertMany( [   
+{name:"ruhan islam", age: 21},
+{name:"ruhan babu", age 31}   
+] ) => to insert many data in a collection
+db.collectionName.find() => to show all collections data.
+
+
+db.collections_name.renamCollection("student") => to change colection name
+===>> db.student_name.renameCollection("student")
+db.help() => to show all command in mongoDB
+db.(dbName like school).help() => to show most usege command
+db.student.drop() => to delete collection
+db.dropDatabase() => to delete running database
+
+db.personal.insertOne({
+name: "Ruhan Babu",
+age: 21, 
+married: false,
+dob: ISODate("2004-02-10T08:00:00Z"),
+weight: 69.50,
+kids: null,
+hobbies: ["Surah", "Sport"],
+address : {
+street: "clubmore",
+city: "Rangpur",
+zip: 5400
+}
+})
